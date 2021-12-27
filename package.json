@@ -1,0 +1,24 @@
+{
+  "name": "surd",
+  "version": "0.0.1",
+  "homepage": "https://github.com/tombl/surd",
+  "repository": {
+    "url": "https://github.com/tombl/surd.git"
+  },
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "runtt build src/index.ts --platform=neutral && tsc"
+  },
+  "devDependencies": {
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "runtt": "^0.0.2"
+  }
+}
