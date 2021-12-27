@@ -1,6 +1,7 @@
 {
   "name": "surd",
   "version": "0.0.1",
+  "description": "A blazing fast binary serialization library",
   "homepage": "https://github.com/tombl/surd",
   "repository": {
     "url": "https://github.com/tombl/surd.git"
